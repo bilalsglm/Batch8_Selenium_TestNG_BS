@@ -86,7 +86,7 @@ public class _1_Alert01 {
     }
 
     @Test
-    public void testAlertDismisAndAccept() throws InterruptedException {
+    public void testAlertDismisAndAccept1() throws InterruptedException {
         WebElement alert2 = driver.findElement(By.id("confirmButton"));
         alert2.click();
         Thread.sleep(3000);
