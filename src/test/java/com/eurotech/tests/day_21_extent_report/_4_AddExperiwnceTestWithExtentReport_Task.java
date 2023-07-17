@@ -43,29 +43,40 @@ public class _4_AddExperiwnceTestWithExtentReport_Task extends TestBase {
         userProfilePage=new UserProfilePage();
         addExperiencePage=new AddExperiencePage();
 
+        extentLogger=report.createTest("TC010 Add Experience Test");
+
+        extentLogger.info("go to kraft login page");
+        extentLogger.info("make login");
         loginPage.login();
 
+        extentLogger.info("Assert successful login with user name");
         String actualUserName=dashboardPage.userName.getText();
         String expectedUserName= ConfigurationReader.get("userName");
-
         Assert.assertEquals(actualUserName,expectedUserName);
 
+        extentLogger.info("Navigate to My Profile with related method");
         dashboardPage.navigateToTabsAndModule(ConfigurationReader.get("userName"),"My Profile");
 
+        extentLogger.info("Verify that User Profile page is displayed");
         Assert.assertTrue(userProfilePage.userProfilePageTitle.isDisplayed());
 
+        extentLogger.info("Navigate to Add Experience tab with related method");
         userProfilePage.navigateUserProfileTabs("Add Experience");
 
+        extentLogger.info("Verify that add experince page is displayed");
         Assert.assertTrue(BrowserUtils.waitForVisibility(addExperiencePage.addExperienceBtn,5).isDisplayed());
 
+        extentLogger.info("Fill the form with non-parameterized method");
         addExperiencePage.fillingAddExperienceForm();
 
+        extentLogger.info("Verify that added experience record can be seen at user profile page");
         String actualJobName = userProfilePage.addedExperienceName("QA");
         String expectedJobName="QA";
-
         Assert.assertEquals(actualJobName,expectedJobName);
 
+        extentLogger.info("Delete last added experience record");
         userProfilePage.deleteExperienceLastRecord("QA");
 
+        extentLogger.pass("Passed");
     }
 }
