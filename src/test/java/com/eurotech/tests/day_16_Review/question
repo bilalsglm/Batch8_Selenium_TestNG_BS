@@ -1,0 +1,28 @@
+
+#User Storie: As a Posmanager, User should create and to see the my meetings
+and events on my calendar from "Calendar" module
+
+#Envirement     : https://qa.fidexio.com/
+#Browser        : chrome
+#Using Data     : E-mail : posmanager75@info.com  , password:posmanager  , tex:summary demo
+
+# For this ERP application, the calendar function is very crucial. ERP stand for Enterprice Resourses Planning
+# Anyone in the team can contribute and plan their agenda using the calendar.
+# To prevent any conflict, events should be created, edited and displayed by all team members.
+# 1. User first lands on weekly display
+# 2. User can change display between Day-Week-Month
+# 3. User can create event by clicking on time box
+# 4. User can see event details when click the event on the calendar.
+# 5. User can edit a created event
+
+  #Kullanıcı Scenario: Bir Pos Manager olarak, Kullanıcının "Takvim" modülünden takvimimdeki
+  toplantılarımı ve etkinliklerimi oluşturması ve görmesi gerekir.
+
+# Bu ERP uygulaması için takvim işlevi çok önemlidir.
+# Ekipteki herkes takvimi kullanarak katkıda bulunabilir ve ajandasını planlayabilir.
+# Herhangi bir çakışmayı önlemek için, tüm ekip üyeleri tarafından etkinlikler oluşturulmalı, düzenlenmeli ve görüntülenmelidir.
+# 1. Kullanıcı ilk önce haftalık ekrana gelir
+# 2. Kullanıcı Gün-Hafta-Ay gösterimini değiştirebilir
+# 3. Kullanıcı, zaman kutusuna tıklayarak etkinlik oluşturabilir
+# 4. Kullanıcı, takvimde etkinliğe tıkladığında etkinlik ayrıntılarını görebilir.
+# 5. Kullanıcı oluşturulan bir etkinliği düzenleyebilir
