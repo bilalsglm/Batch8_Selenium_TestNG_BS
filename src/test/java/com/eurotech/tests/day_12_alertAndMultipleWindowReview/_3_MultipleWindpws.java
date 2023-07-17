@@ -42,11 +42,10 @@ public class _3_MultipleWindpws {
         Thread.sleep(2000);
 
         String currentTab = driver.getWindowHandle();
-
         Set<String> tabs = driver.getWindowHandles();
+
         System.out.println("currentTab = " + currentTab);
         System.out.println("tabs = " + tabs);
-
 
         for (String tab : tabs) {
             if (!currentTab.equals(tab)){

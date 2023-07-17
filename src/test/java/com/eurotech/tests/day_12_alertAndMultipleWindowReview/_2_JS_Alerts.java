@@ -181,7 +181,6 @@ public class _2_JS_Alerts {
 
         Assert.assertFalse(result.getText().contains("cancel"));
 
-
         WebElement promptBox = driver.findElement(By.id("promptexample"));
         promptBox.click();
         Thread.sleep(2000);

@@ -24,7 +24,7 @@ public class _1_HTML_Popups {
     }
 
     @Test
-    public void thtmlPopup() throws InterruptedException {
+    public void htmlPopup() throws InterruptedException {
 
         /**
          * navigate to https://testpages.herokuapp.com/styled/alerts/fake-alert-test.html

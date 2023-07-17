@@ -11,9 +11,9 @@ import org.testng.annotations.Test;
 public class _02_frameAndIframe {
 
     //Frame yapisi: ic ice konumlandirilmis web sayfalarinin tanimlanmasi icin kullanilir
-//Burada Frame: Bir Web sayfasinda ic ice olmayacak sekilde konumlandirilmis durumu
-//IFrame ise --> ic ice konulmus web sayfalarinin tanimlanmasinda kullanilir
-//Frame yapisi inspect yapildiktan sonra iframe ile tekrardan html kod baslangicindan da anlasilir
+    //Burada Frame: Bir Web sayfasinda ic ice olmayacak sekilde konumlandirilmis durumu
+    //IFrame ise --> ic ice konulmus web sayfalarinin tanimlanmasinda kullanilir
+    //Frame yapisi inspect yapildiktan sonra iframe ile tekrardan html kod baslangicindan da anlasilir
 
 
     //Frame yapisina 3 farkli  sekilde erisilebilir
@@ -81,10 +81,6 @@ public class _02_frameAndIframe {
         //driver.switchTo().frame(2);//Kac ktane ic ice frame oldugunda
         // driver.switchTo().parentFrame();//Bu index olarak ic ice olan frame den
         // adim adim disa cikma yontemidir.
-
-
-
-
 
 
 

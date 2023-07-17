@@ -78,11 +78,6 @@ public class _1_ListOfElements_FindElements {
         System.out.println("headers.size() = " + headers.size());
 
 
-
-
-
-
-
     }
     @Test
     public void findElemet() throws InterruptedException {

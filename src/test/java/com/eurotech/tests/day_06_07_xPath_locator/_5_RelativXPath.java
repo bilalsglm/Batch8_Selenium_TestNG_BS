@@ -1,4 +1,4 @@
-package com.eurotech.tests.day_6_7_xPath_locator;
+package com.eurotech.tests.day_06_07_xPath_locator;
 
 import com.eurotech.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
