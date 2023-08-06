@@ -36,7 +36,7 @@ public class _1_VerifyUrlIsNotChanged {
 
         String acutualUrl= driver.getCurrentUrl();
 
-       if (expectedUrl.equals(expectedUrl)){
+       if (acutualUrl.equals(expectedUrl)){
            System.out.println("Pass");
        }else {
            System.out.println("Failed");

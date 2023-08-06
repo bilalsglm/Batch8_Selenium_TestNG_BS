@@ -27,8 +27,7 @@ public class TestBase {
     protected WebDriver driver;
     protected Actions action;
     protected WebDriverWait wait;
-
-    protected ExtentReports report;
+   static protected ExtentReports report;
    protected ExtentHtmlReporter htmlReporter;
    protected ExtentTest extentLogger;
 
@@ -87,6 +86,6 @@ public class TestBase {
 
         }
 
-       Driver.closeDriver();
+        Driver.closeDriver();
     }
 }
